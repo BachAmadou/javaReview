@@ -1,7 +1,4 @@
-import java.util.function.BiConsumer;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
+import java.util.function.*;
 
 public class AllFunctionsExample {
     public static void main(String[] args) {
@@ -23,6 +20,10 @@ public class AllFunctionsExample {
         Function<String, String> str = word -> "What's up " + word;
         String greet = str.apply("Bach");
         System.out.println(greet);
+
+        //********************SUPPLIER*************************//
+        Supplier<Double> randomNum = () -> Math.random();
+        System.out.println(randomNum.get());
     }
 }
 
