@@ -1,6 +1,5 @@
 package function;
 
-
 import lombok.Builder;
 import lombok.Data;
 
