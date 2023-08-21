@@ -26,7 +26,7 @@ public class BigDecimalDemo {
         System.out.println(new BigDecimal("3").compareTo(new BigDecimal("2")));
 
         // BigDecimals are immutable
-        
+
     }
 }
 
